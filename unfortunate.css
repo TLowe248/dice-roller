@@ -1,0 +1,55 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100vh;
+    text-align: center;
+    width: 100%;
+    background-color: #3A2A46;
+}
+
+.display {
+    background-color: #8a2be2;
+    text-align: center;
+    width: 25%;
+    margin: auto;
+}
+
+.dice {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    width: 100%;
+}
+
+.dice > p {
+    color: #FFF;
+}
+
+article {
+    margin: auto;
+    width: 35%;
+    background-color: #FFA6FF;
+}
+
+.answer {
+    background-color: #6690ab;
+    width: 25%;
+    margin: auto;
+}
+
+/*
+(color pallete organized by christian)
+#8A2BE2
+
+#6690AB
+
+#3A2A46
+
+(optional)
+#FFA6FF
+*/
